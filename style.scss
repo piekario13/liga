@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Fugaz+One');
+@import 'partials';
+
+
+//header
+header {
+    width: 100%;
+    position: fixed;
+    margin-top: 20px;
+}
+    .title {
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 80px;
+        text-transform: uppercase;
+        color: #000;
+        transform: rotate(-3deg);
+     }
+    .logmenu {
+        font-family: 'Fredericka the Great', cursive;
+        text-align: center;
+    }
+        .register {
+            font-size: 40px;
+            margin-bottom: 35px;
+            &:hover {
+                transform: scale(1.3);
+                -webkit-transition: all 0.3s ease-in-out 0s;
+                transition: all 0.3s ease-in-out 0s;
+                cursor: pointer;
+            }
+        }
+        .login {
+            @extend .register;
+        }
+    
+
+//background
+
+.background {
+    background-image: url("Image/background.png");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    }
+    .team img {
+        margin-top: 550px;
+    }
