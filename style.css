@@ -125,21 +125,30 @@
   width: 100%;
   text-align: center; }
 
-header {
-  width: 100%;
-  position: fixed;
-  margin-top: 20px; }
+* {
+  border: 1px solid red; }
+
+.background {
+  background-image: url("Image/background.png");
+  transform: scale(0.8);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; }
 
 .title {
   font-family: 'Fredericka the Great', cursive;
   font-size: 80px;
   text-transform: uppercase;
   color: #000;
-  transform: rotate(-3deg); }
+  transform: rotate(-3deg);
+  margin-top: -40px; }
 
 .logmenu {
   font-family: 'Fredericka the Great', cursive;
-  text-align: center; }
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 400px; }
 
 .register, .login {
   font-size: 40px;
@@ -149,15 +158,5 @@ header {
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer; }
-
-.background {
-  background-image: url("Image/background.png");
-  height: 1000px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed; }
-
-.team img {
-  margin-top: 550px; }
 
 /*# sourceMappingURL=style.css.map */
